@@ -1,0 +1,12 @@
+puts "This is a simple FizzBuzz in Ruby using 7 as Fizz and 9 as Buzz."
+n=gets
+ n=n.to_i
+  if n % 7 == 0
+    puts "fizz"
+  elsif n % 9 == 0
+    puts "buzz"
+  elsif n % 7 == 0 and n % 9 == 0
+    puts "fizzbuzz"
+  else
+    puts n
+   end
